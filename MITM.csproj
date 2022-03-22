@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="FM.LiveSwitch" />
+    <None Remove="FM.LiveSwitch.Opus" />
+    <None Remove="FM.LiveSwitch.Vpx" />
+    <None Remove="FM.LiveSwitch.AudioProcessing" />
+    <None Remove="FM.LiveSwitch.Yuv" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FM.LiveSwitch" Version="1.13.1.54330" />
+    <PackageReference Include="FM.LiveSwitch.Opus" Version="1.13.1.54330" />
+    <PackageReference Include="FM.LiveSwitch.Vpx" Version="1.13.1.54330" />
+    <PackageReference Include="FM.LiveSwitch.AudioProcessing" Version="1.13.1.54330" />
+    <PackageReference Include="FM.LiveSwitch.Yuv" Version="1.13.1.54330" />
+  </ItemGroup>
+</Project>
